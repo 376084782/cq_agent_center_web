@@ -1,0 +1,154 @@
+.tur-table-box {
+  padding: 24px 32px;
+
+  .el-pagination {
+    margin: 24px 0;
+  }
+}
+
+.tur-chart-box {
+  padding: 24px 32px 24px 0;
+}
+
+.tur-with-whiteblock {
+  &:before {
+    content: "";
+    display: block;
+    margin: 0 -24px;
+    height: 20px;
+    background: #fff;
+  }
+}
+
+.tur-with-breadcurmb {
+  margin: 0 -24px;
+  padding: 16px 24px 0;
+  background: #fff;
+}
+
+.tab-with-breadcurmb {
+  .el-tabs__header {
+    margin: 0 -24px;
+    padding: 0 32px 0;
+    background: #fff;
+  }
+
+  .el-tabs__nav-wrap:after {
+    height: 0 !important;
+  }
+
+  .el-tabs__content {
+    margin-top: 24px;
+    background: #fff;
+  }
+}
+
+.tab-content-form {
+  .el-tabs__content {
+    margin-top: 0;
+    background: transparent;
+  }
+}
+
+.b-block {
+  .el-date-editor {
+    width: 100%;
+  }
+
+  .el-select {
+    display: block;
+  }
+}
+
+.el-table__empty-block {
+  min-height: 300px;
+}
+
+.el-form-item.is-required .el-form-item__label:before {
+  font-family: SimSun;
+}
+
+.el-form-item.with-button {
+  margin-bottom: 0;
+}
+
+.tab-header-with-content {
+  .el-tabs__header {
+    margin-bottom: 2px;
+  }
+
+  .el-tabs__nav-wrap:after {
+    height: 0 !important;
+  }
+}
+
+.el-tabs__item {
+  font-size: 16px !important;
+  height: 25px !important;
+  line-height: 20px !important;
+}
+.el-card__body {
+  padding: 0 !important;
+}
+
+.list-table {
+  border-right: 1px solid #ebeef5 !important;
+  border-left: 1px solid #ebeef5 !important;
+  border-top: 1px solid #ebeef5 !important;
+}
+
+.el-collapse-item__header {
+  border-bottom: 1px solid #e5e5e5 !important;
+  padding-left: 25px;
+  padding-right: 10px;
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.85);
+
+  .el-collapse-item__arrow:before {
+    color: #3b77e3 !important;
+    font-weight: bold;
+  }
+}
+
+.el-collapse-item__content {
+  padding: 0 !important;
+}
+
+.search-column {
+  color: rgba(0, 0, 0, 0.65) !important;
+  position: relative;
+  height: 47px;
+  & > div {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    padding: 14px;
+  }
+
+  .el-radio + .el-radio {
+    margin-left: 6px !important;
+  }
+
+  .el-radio__label {
+    padding-left: 4px !important;
+  }
+}
+
+.el-tag {
+  &.success {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(100, 197, 84, 1);
+    border-radius: 4px;
+    color: rgba(100, 197, 84, 1);
+  }
+  &.disabled {
+    background: rgba(255, 255, 255, 1);
+    border: 1px solid rgba(229, 229, 229, 1);
+    border-radius: 4px;
+    color: rgba(229, 229, 229, 1);
+  }
+}

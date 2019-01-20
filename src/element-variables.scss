@@ -1,0 +1,55 @@
+/*
+Write your variables here. All available variables can be
+found in element-ui/packages/theme-chalk/src/common/var.scss.
+For example, to overwrite the theme color:
+*/
+$--color-primary:#617FCC !default;
+$--color-blue:#50B7FB !default;
+$--color-success: #03D6C8 !default;
+$--color-danger: #ff7477 !default;
+$--color-warning: #FEB74D !default;
+$--color-info: #909399 !default;
+
+
+$--color-text-default:#617FCC !default;
+$--color-text-success: #52C41A !default;
+$--color-text-danger: #F5222D !default;
+$--color-text-warn: #FAAD14 !default;
+
+.text-warn {
+  color: $--color-text-warn;
+}
+.text-success {
+  color: $--color-text-success;
+}
+.text-danger {
+  color: $--color-text-danger;
+}
+
+$--color-text-primary: #354155 !default;
+$--color-text-secondary: #8F9BAF !default;
+
+$--font-size-base: 18px !default;
+$--font-size-small: 16px !default;
+$--font-size-large: 20px !default;
+
+$--border-width-base: 1Px !default;
+$--border-color-light: #e4e7ed !default;
+$--border-color-lighter: #ebeef5 !default;
+$--table-border-color: $--border-color-lighter !default;
+$--table-border: 1Px solid $--table-border-color !default;
+$--select-dropdown-border: solid 1Px $--border-color-light !default;
+
+
+
+$--box-shadow-base: 0 2px 4px rgba(0, 0, 0, .12),
+0 0 6px rgba(0, 0, 0, .04) !default;
+
+// $--box-shadow-base:0 3px 10px #00000021;
+
+
+
+/* icon font path, required */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
