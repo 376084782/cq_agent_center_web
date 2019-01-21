@@ -10,6 +10,7 @@ const Forget = resolve => {
 };
 
 import {setting} from './module/setting'
+
 export default [
   {
     name: "login",
@@ -28,5 +29,5 @@ export default [
       title: "忘记密码",
       noLogin: true
     }
-  }
+  },
 ].concat(setting);
